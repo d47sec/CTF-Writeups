@@ -17,7 +17,7 @@ Sau một hồi fuzzing các thư mục thì mình thử ***file:///proc/1/cwd**
 > Thư mục proc là một thư mục đặc biệt, nó thuộc loại virtual filesystem (nôm na là hệ thống file ảo) nó thường lưu thông tin về các tiến trình đang chạy trên hệ thống,
 1 ở đây là PID của process đang chạy trên hệ thống, mỗi process sẽ có 1 PID khác nhau, còn cwd là một sym link đến thư mục của tiến trình đang chạy ở đây là tiến trình 
 có PIP 1. Đọc thêm về [thư mục proc](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/proc.html)
-và symlink ở đây(symlink)[https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/]
+và symlink ở đây [symlink](https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/)
 
 ![anh](./images/3.PNG)
 
@@ -29,3 +29,4 @@ FULL PAYLOAD: ***file:///proc/1/cwd/Th1s_1s_sEcreT_pAth_c4n_Gu3sss_1783127839213
 
 
 
+Updating... 
