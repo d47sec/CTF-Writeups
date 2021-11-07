@@ -29,7 +29,7 @@ FULL PAYLOAD: ***file:///proc/1/cwd/Th1s_1s_sEcreT_pAth_c4n_Gu3sss_1783127839213
 
 ## 2. Tiny Hole
 ![anh](./images/4.PNG)
-Bài này cho sẵn source code nên mình cần down file về và phân tích. Source mình để ở trên.
+Bài này cho sẵn source code nên mình cần down file về và phân tích. Source mình để ở trên [source](./Tiny%20Hole).
 Bài này trong lúc thi thì mình giải ko ra :((. 
 Nên giờ chỉ note lại các bước để giải câu này.
 * 1 Tạo một command được đặt trong dấu backtick (\`\`) vào tham số script_url => file:///etc/paswd/\`id\` => để server lúc này sẽ lưu cái command vào file /src/logs/ten_thu_muc/ten_file_log.txt 
