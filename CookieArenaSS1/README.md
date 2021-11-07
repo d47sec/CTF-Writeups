@@ -27,6 +27,12 @@ FULL PAYLOAD: ***file:///proc/1/cwd/Th1s_1s_sEcreT_pAth_c4n_Gu3sss_1783127839213
 
 > FLAG{abc725173fa1828ea019503669b4eecd}
 
-
+## 2. Tiny Hole
+![anh](./images/4.PNG)
+Bài này cho sẵn source code nên mình cần down file về và phân tích. Source mình để ở trên.
+Bài này trong lúc thi thì mình giải ko ra :((. 
+Hàm này có 1 endpoint duy nhất là **runScript** và có **5 function** để xử lí.
+![func1](./images/5.PNG)
+Hàm này sẽ lấy 5 tham số từ cái form mà để cho sau đó => gọi đến hàm **start()**
 
 Updating... 
