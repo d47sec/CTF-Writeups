@@ -30,11 +30,9 @@ FULL PAYLOAD: ***file:///proc/1/cwd/Th1s_1s_sEcreT_pAth_c4n_Gu3sss_1783127839213
 ## 2. Tiny Hole
 ![anh](./images/4.PNG)
 Bài này cho sẵn source code nên mình cần down file về và phân tích. Source mình để ở trên [source](./Tiny%20Hole).
-Bài này cho sẵn source code nên mình cần down file về và phân tích. Source mình để ở trên.
 Bài này trong lúc thi thì mình giải ko ra :((. 
 Nên giờ chỉ note lại các bước để giải câu này.
 * 1 Tạo một command được đặt trong dấu backtick (\`\`) vào tham số script_url => file:///etc/paswd/\`id\` => để server lúc này sẽ lưu cái command vào file /src/logs/ten_thu_muc/ten_file_log.txt 
 * 2  Bây giờ cần trigger cái command => thay script_url bằng tên file logs ở trên để trigger file:///src/logs/ten_file_log.txt
 * 3 Do bài này ko cho oob => sử dụng dns => tạo một subdomain tại requestrepo để hứng dns query từ server kèm vs flag
-Hàm này có 1 endpoint duy nhất là **runScript** và có **5 function** để xử lí.
-![func1](./images/5.PNG)
+> Tham khảo: [link wu](https://dauhoangtai.github.io/ctf/2021/11/04/WRITEUP-COOKIEARENA_SS1.html#challenge-a-tiny-hole)
