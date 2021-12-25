@@ -77,7 +77,7 @@ Bài này chỉ có endpoint duy nhất nên ta chỉ cần tập trung vào mì
 Mình thấy cái hàm `inetChecksite` này khá lạ và nó thuộc package `systeminformation`, kiểm tra version của nó trong file `package.json`, sau đó gu gồ , thì thấy thằng này có dính lỗi `command injection`. Nhưng trong bài này là dạng `blind commnad injection` vì output sẽ không được trả ra.
 
 
-Tới đây mình nghĩ sẽ tạo một reverse-shell, nhưng mọi cách đều failed vì trên phía server đã chặn hết các giao thức. Ban đầu mình sử dụng curl để gửi request đến server của mình thì ok, nhưng sau đó dùng curl để upload file `flag.txt` thì đã bị chặn or filter.
+Tới đây mình nghĩ sẽ tạo một reverse-shell, nhưng đều failed vì trên phía server đã chặn hết các giao thức. Ban đầu mình sử dụng curl để gửi request đến server của mình thì ok, nhưng sau đó dùng curl để upload file `flag.txt` thì đã bị chặn or filter.
 Sau một hồi fuzzing thì mình tìm đến `DNS`, vì hầu như ứng dụng web nào cũng đều hỗ trợ giao thức `DNS`. 
 
 
