@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-chall",
+  "version": "1.0.0",
+  "description": "Dockerized node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Grizz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "grabzit": "^3.5.2",
+    "node-webshot": "^1.0.4",
+    "puppeteer": "^13.0.0",
+    "systeminformation": "4.34.10"
+  }
+}
