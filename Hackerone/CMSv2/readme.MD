@@ -15,7 +15,7 @@ Sài burpsuite để gửi request đến /e3bdb455e9/page/1 cùng với usernam
 
 ![](images/2022-01-19-10-22-46.png)
 
-Sau khi truy cập vào ENDPOINT /e3bdb455e9/page/3 thì đều trả về 403
+Sau khi truy cập vào ENDPOINT /e3bdb455e9/page/3 thì đều trả về 403 vậy khả năng cao là Flag 3 ở page này.
 
 Sau một hồi loay hoay, tìm cách bypass thì no hope, nhớ lại là lúc brute table thì có 2 tables , 1 cái là pages và admins, vậy h đọc data ở trong pages table chắc chắn flag ở trong đó or không :v
 
