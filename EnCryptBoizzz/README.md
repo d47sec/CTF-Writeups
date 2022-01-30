@@ -1,13 +1,7 @@
 # ENCRYPTBOIZZZ (Author: nhienit)
 
-SOURCE CODE BÀI NÀY MÌNH ĐỂ Ở TRÊN, CÓ DOCKER NÊN CÁC BẠN CÓ THỂ DELOY LẠI TRÊN LOCAL
+SOURCE CODE BÀI NÀY MÌNH ĐỂ Ở TRÊN, CÓ DOCKER NÊN CÁC BẠN CÓ THỂ DELOY LẠI TRÊN LOCAL NẾU SERVER ĐÓNG
 
-```
-B1: sài lệnh git clone để clone cái repo này
-B2: sau đó cd vào thư mục vừa clone về
-B3: docker-compose up -d
-B4: sau đó truy cập vào URL như sau: http://localhost:2010
-```
 
 # PHÂN TÍCH
 
@@ -64,6 +58,4 @@ Lấy flag nữa là xong game :))
 ![](images/2022-01-30-15-44-50.png)
 
 > FLAG: KCSC{Hello hacker! Hello new member ! Hello our talent <3}
-
-
 
