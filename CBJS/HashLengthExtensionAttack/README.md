@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=9yOKVqayixM&t=888s&ab_channel=CyberJutsuTV (part
 
 https://www.youtube.com/watch?v=GnCTXf_avdo&t=506s&ab_channel=CyberJutsuTV (part 2)
 
-Mình vào coi xong video thì trang web: https://hash-playground.cyberjutsu-lab.tech/ này ko còn vào được nữa =))
+Mình vào coi xong video thì vào trang web: https://hash-playground.cyberjutsu-lab.tech/ này để tạo payload nhưng ko còn vào được nữa =))
 
 Và như trong video thì phần này chưa có hỗ trợ tính năng brute-force cho chiều dài của secretKey nên mình code lại luôn.
 
