@@ -9,4 +9,4 @@ Mình vào coi xong video thì vào trang web: https://hash-playground.cyberjuts
 
 Và như trong video thì phần này chưa có hỗ trợ tính năng brute-force cho chiều dài của secretKey nên mình code lại luôn.
 
-Script mình để ở đây: [exploit.py](exploit.py)
+Script mình để ở đây: [exploit.py](https://github.com/d47sec/CTF-Writeups/tree/main/CBJS/HashLengthExtensionAttack/exploit.py)
