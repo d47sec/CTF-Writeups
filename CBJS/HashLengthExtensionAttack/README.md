@@ -10,3 +10,6 @@ Mình vào coi xong video thì vào trang web: https://hash-playground.cyberjuts
 Và như trong video thì phần này chưa có hỗ trợ tính năng brute-force cho chiều dài của secretKey nên mình code lại luôn.
 
 Script mình để ở đây: [exploit.py](https://github.com/d47sec/CTF-Writeups/tree/main/CBJS/HashLengthExtensionAttack/exploit.py)
+
+Nếu chúng ta đọc file không phải là file ảnh, ví dụ như file /etc/passwd thì ta cần view-source(Ctrl + U) sau đó đem giá trị này đi base64 decode để đọc nội dung file.
+![](images/2022-04-01-07-39-37.png)
