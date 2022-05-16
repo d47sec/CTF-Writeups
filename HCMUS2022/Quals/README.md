@@ -96,3 +96,9 @@ Có được secret_key thì đọc flag nữa là xong
 
 
 
+# BABY DROID 
+
+Bài cho một file apk, tải về sau đó mình sử dụng jadx để decompile file và đọc source code. 
+
+Ở đây có hàm checkFlag(), R() ngồi phân tích bằng tay một lát mình có flag bài này. 
+
