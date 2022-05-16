@@ -21,7 +21,7 @@ Sau khi đọc qua source code, thì mình thấy bài này sử dụng concat s
             }
 ```
 
-Ở đây mình sử dụng dấu \ để bypass đoạn check này, `username=blabla\&password=union select 1337,1337 -- -`
+Ở đây mình sử dụng dấu `\` để bypass đoạn check này, `username=blabla\&password=union select 1337,1337 -- -`
 
 Câu truy vấn sẽ thành như sau `select username, path from users where username='blalbal\'&password='union select 1337,1337 -- -`
 
@@ -41,7 +41,7 @@ Và giá trị `$_SESSION['api_path']` này ta có thể thay đổi dựa vào 
 
 Vậy giá trị `$_SESSION['api_path']='@127.0.0.1:32181/flag.php#'` là ta có thể đọc được
 
-Ở đây mình sử dụng 2 function là hex và unhex trong mysql để bypass ", ' vì server không cho sử dụng 2 dấu này
+Ở đây mình sử dụng 2 function là hex và unhex trong mysql để bypass `"`, `'` vì server không cho sử dụng 2 dấu này
 
 Script để lấy flag 
 ```
