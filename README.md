@@ -1,3 +1,3 @@
 ﻿# CTF-Writeups
 
-This is the solution or write-up for ctf challenges that I participated. 
+This is the solution for ctf challenges that I participated. 
